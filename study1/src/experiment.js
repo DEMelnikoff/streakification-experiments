@@ -1,9 +1,9 @@
-import "./jspsych/css/jspsych.css";
+import "jspsych/css/jspsych.css";
 import "./style.css";
 import jsPsych from "./prepare";
-import jsPsychPipe from './@jspsych-contrib/plugin-pipe';
-import jsPsychSurveyLikert from './@jspsych/plugin-survey-likert';
-import jsPsychSurveyMultiChoice from './@jspsych/plugin-survey-multi-choice'; 
+import jsPsychPipe from '@jspsych-contrib/plugin-pipe';
+import jsPsychSurveyLikert from '@jspsych/plugin-survey-likert';
+import jsPsychSurveyMultiChoice from '@jspsych/plugin-survey-multi-choice'; 
 //test 2
 
 import { readYaml, checkEmpty, fullScreenHandler, exportData, JSON2CSV, makeMultipliers } from "./utils";

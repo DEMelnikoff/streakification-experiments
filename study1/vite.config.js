@@ -1,7 +1,7 @@
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-    base: "/streak-type_10v90/",
+    base: "./study1/",
     build: {
       target: "esnext",
       sourcemap: true
