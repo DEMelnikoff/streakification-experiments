@@ -804,6 +804,6 @@ const exp = (function() {
 
 }());
 
-const timeline = [exp.consent, exp.round_1, exp.round_2, exp.demographics, exp.save_data];
+const timeline = [exp.round_1, exp.round_2, exp.demographics, exp.save_data];
 
 jsPsych.run(timeline);

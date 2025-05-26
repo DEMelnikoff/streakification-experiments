@@ -102,7 +102,7 @@ const fullscreen_onstart = (trial) => {
 timeline.push( renderPlugin({args: args.fullscreen, on_start: fullscreen_onstart}));
 
 // consent page
-timeline.push( renderPlugin({args: args.consent}))
+//timeline.push( renderPlugin({args: args.consent}))
 
 // instruction page
 timeline.push( renderPlugin({args: args.practice_instruction}))
