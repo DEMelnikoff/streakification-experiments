@@ -258,7 +258,7 @@ export function bonusInstruction({
             let { Q0, Q1, Q2 } = data.response;
             data.pass = correct = [
                 Q0.includes("At least"),
-                Q1.startsWith(condition === "binary streak" ? '0' : '10'),
+                Q1.startsWith(condition === "binary streak" ? '0' : '20'),
                 Q2.startsWith('30')
             ].every(Boolean)
         },
