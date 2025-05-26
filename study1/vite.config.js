@@ -1,7 +1,7 @@
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-    base: "./study1/",
+    base: "./",
     build: {
       target: "esnext",
       sourcemap: true
