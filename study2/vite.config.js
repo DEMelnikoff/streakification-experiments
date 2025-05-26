@@ -1,7 +1,7 @@
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-    base: "/jspsych-typing/",
+    base: "./",
     build: {
       target: "esnext",
       sourcemap: true
